@@ -251,17 +251,17 @@ header {
 
 .steps-box:first-child {
   text-align: right;
-  padding-left: 3%;
+  padding-right: 3%;
   margin-top: 30px;
 }
 
 .steps-box:last-child {
   padding-left: 3%;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .app-screen {
-  width: 50%;
+  width: 40%;
 }
 
 .works-step:last-of-type {
@@ -275,7 +275,7 @@ header {
 .works-step div {
   color: #e67e22;
   border: 2px solid #e67e22;
-  display: inline-block;
+  display: block;
   border-radius: 50%;
   height: 50px;
   width: 50px;
@@ -283,6 +283,8 @@ header {
   padding: 5px;
   font-size: 150%;
   margin-bottom: 5px;
+  float: left;
+  margin-right: 20px;
 }
 
 .btn-app img {
